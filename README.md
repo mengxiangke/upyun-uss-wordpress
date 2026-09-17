@@ -8,6 +8,9 @@
 [![contributors](https://img.shields.io/github/contributors/sy-records/upyun-uss-wordpress?color=blue)](https://github.com/sy-records/upyun-uss-wordpress/graphs/contributors)
 [![plugin stars](https://img.shields.io/wordpress/plugin/stars/uss-upyun)](https://wordpress.org/plugins/uss-upyun/)
 [![plugin installs](https://img.shields.io/wordpress/plugin/installs/uss-upyun)](https://wordpress.org/plugins/uss-upyun/)
+[![Deploy to WordPress.org](https://github.com/sy-records/upyun-uss-wordpress/actions/workflows/deploy.yml/badge.svg)](https://github.com/sy-records/upyun-uss-wordpress/actions/workflows/deploy.yml)
+
+> 使用 WordPress Playground 在线预览 [USS Upyun](https://wordpress.org/plugins/uss-upyun/?preview=1) 插件
 
 ## 插件特色
 
@@ -19,6 +22,7 @@
 * [x] 支持同步历史附件到又拍云云存储USS
 * [x] 支持上传时自动重命名文件（MD5或时间戳+随机数两种方式）
 * [x] 支持设置图片处理
+* [x] 支持多站点
 
 ## 安装
 
@@ -28,9 +32,9 @@ WordPress 后台安装插件页面搜索`USS Upyun`，点击安装
 
 ### 下载源码
 
-从 Github 下载源码，通过 WordPress 后台上传安装，或者直接将源码上传到 WordPress 插件目录`wp-content/plugins`，然后在后台启用
+从 GitHub 下载源码，通过 WordPress 后台上传安装，或者直接将源码上传到 WordPress 插件目录`wp-content/plugins`，然后在后台启用
 
-Github 下载节点：[https://github.com/sy-records/upyun-uss-wordpress/releases/latest](https://github.com/sy-records/upyun-uss-wordpress/releases/latest)
+GitHub 下载节点：[https://github.com/sy-records/upyun-uss-wordpress/releases/latest](https://github.com/sy-records/upyun-uss-wordpress/releases/latest)
 
 ## 修改配置
 
@@ -39,6 +43,6 @@ Github 下载节点：[https://github.com/sy-records/upyun-uss-wordpress/release
 
 ## 插件截图
 
-![设置页面](screenshot-1.png)
+![设置页面](.wordpress-org/screenshot-1.png)
 
-![update-wordpress-posts-photos.png](screenshot-2.png)
+![更新数据库链接](.wordpress-org/screenshot-2.png)
